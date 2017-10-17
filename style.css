@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul   {
+    color: black; /* Black text color */
+    text-decoration: none; /* Remove underline from links */
+    font-family: raleway;
+    font-size: auto;
+    background-color: transparent !important;
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 36px;
+}
+
+
+#submenu {
+    color: black; /* Black text color */
+    text-decoration: none; /* Remove underline from links */
+    font-family: raleway;
+    font-size: auto;
+    background-color: transparent !important;
+    list-style-type: none;
+    display: none;
+}
+
+#menu li {
+    padding-left: 36px;
+}
+
+.grid-sizer,
+.grid-item { width: 20%; }
+/* 2 columns */
+.grid-item--width2 { width: 40%; }
+
+.topmenu ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+
+}
+.topmenu li {
+    float: left;
+    list-style-type: none;
+}
+
+.topmenu li a {
+    display: inline-block;
+    color: #e3e9f2;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    padding: 0px 20px 0px 20px ;
+    text-decoration: none;
+
+}
+
+.topmenu li a:hover {
+    color: white;
+    border-radius: 50px;
+}
+
+/* Style for font awesome icons */
+.fa {
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    color:#313335;
+}
+
+.faContact {
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    color:white;
+}
+
+/* Add a hover effect if you want */
+.fa-twitter:hover {
+    color: #4099FF;
+}
+.fa-medium:hover {
+    color: #3CB371;
+}
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+.fa-bandcamp:hover {
+    color: #69A9A5;
+}
+
+.vertical-menu {
+    width: 100%;
+}
+.vertical-menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-family: raleway;
+    font-size: auto;
+    margin-left:20px;
+}
+
+.vertical-menu a:hover {
+    opacity: 0.5; /* Dark grey background on mouse-over */
+}
+
+.imagebg {
+  /* The image used */
+  background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/1974260_10203893444996354_4626629006158526395_o.jpg?oh=2e426e17c8018ddb85fc1b2d9aee3bd8&oe=5A15B4F5");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+}

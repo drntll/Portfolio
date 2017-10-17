@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Lien vers le CSS en local!-->
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <!-- Lien vers awesome icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Lien vers Google fonts!-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:300" rel="stylesheet">
+  <!-- Jquery !-->
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <!--Javascript-->
+  <script type="text/javascript" src="./app.js"></script>
+  <!--body avec margin:0 pour virer le board blanc par défaut !-->
+</head>
+<style>
+  body,
+  html {
+    height: 100%;
+  }
+div > div {
+  white-space: pre;
+  line-height: 150%;
+}
+
+div > div > a {
+  text-decoration: none;
+  color : inherit;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+
+.backmenu {
+  font-size: 10px;
+}
+.backmenu:hover {
+  text-decoration: underline;
+}
+  .bg {
+    /* The image used */
+    background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/1974260_10203893444996354_4626629006158526395_o.jpg?oh=2e426e17c8018ddb85fc1b2d9aee3bd8&oe=5A15B4F5");
+
+    /* 1/2 height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    height: 90%;
+    background-color: black;
+    text-decoration: none;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    /*background-color: #4DBA87
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;*/
+  }
+
+  .captiontext {
+    background-color: #4DBA87 ;
+    color: inherit;
+    padding: 18px;
+    padding-right: 55px;
+    font-size: 20px;
+    /* letter-spacing: 5px;*/
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    text-decoration: none;
+    font-family: raleway;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .text-container {
+    padding-top: 5%;
+    align-content: center;
+    display: block;
+    white-space: pre;
+  }
+  .texte {
+    font-family: raleway;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    color : white;
+    float:inherit;
+    clear:left;
+    }
+  /*.contact-block {
+    background-color: #4DBA87;
+    height: 13%;
+    text-align: center;
+    font-family: raleway;
+    padding-top:20px;
+  } */
+</style>
+
+<body>
+  <div class="container">
+    <div class="bg" style="opacity:0.4 "> </div>
+      <div class="caption">
+        <div class="captiontext">
+        Feel free to contact me if you'd like to collaborate,
+        I'll try to answer your questions ASAP !
+        <a class = "contact" href="mailto:contact@adrientalal.com"> contact@adrientalal.com </a>
+      </div>
+  </div>
+  <!-- <div class="contact-block">
+    <div>
+      <span class="texte">Feel free to contact me if you'd like to collaborate ! </span>
+    </div>
+    <div>
+      <span class="texte">I'll try to answer your questions ASAP </span>
+    </div>
+    <div>
+    <span class="texte">✉️ me@adrientalal.com </span>
+  </div> !-->
+  </div>
+  <div style="background-color:white;height:10%;">
+  <div style="height:auto;bottom:0;color:white;display:flex; justify-content:center; align-items:center;padding-top:18px;">
+  <a href="https://twitter.com/Drntll" class="fa fa-twitter fa-lg"></a>
+  <a href="https://medium.com/@atalal" class="fa fa-medium fa-lg"></a>
+  <a href="https://www.linkedin.com/in/adrientalal/" class="fa fa-linkedin fa-lg"></a>
+  <a href="https://fluctuate.bandcamp.com/album/seeds-of-war" class="fa fa-bandcamp fa-lg"></a>
+  </div>
+  </div>
+</body>
